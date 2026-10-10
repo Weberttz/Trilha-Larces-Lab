@@ -11,10 +11,6 @@
 # variável 
 dir=$1
 
-# impressão de título
-echo "------------------ ARQUIVOS DE LOGS FICTÍCIOS ------------------"
-echo ""
-
 # percorre cada arquivo .log do diretório passado
 for f in "$dir"/*.log; do
     # recolhe o tamanho (número de caracteres) do arquivo
